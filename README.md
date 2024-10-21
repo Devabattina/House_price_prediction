@@ -43,8 +43,10 @@ Training procedure:
 Hyperparameter options for all the models are natively tunable in the code.
 
 #Performance metrics
+
 We measure the performance of the models in terms of Mean Absolute Percentage Error (MAPE) in predicting the accuracy. MAPE provides an intuitively understandable measure since it calculates the percentage error between the predicted values and actual values.
 
+code:
 from sklearn.metrics import mean_absolute_percentage_error
 mape = mean_absolute_percentage_error(y_true, y_pred)
 print(f"MAPE: {mape:.10f}")
@@ -59,6 +61,7 @@ The model that has the least prediction error is CatBoost, so it's the best for 
 
 
 #Results
+
 The performance of each model is output by the project as MAPE. Based on the results:
 
 1. In the case of CatBoost, accuracy is at a much higher side with a MAPE of 0.1329.
