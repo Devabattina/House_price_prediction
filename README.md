@@ -1,0 +1,2 @@
+# House_price_prediction
+This project aims to predict house prices based on various features-such as location, size, number of rooms, and many other relevant factors-that are used to classify houses. The data used includes historical data regarding housing for which one trains a machine learning model-Linear Regression, Decision Trees, and Random Forest, among others-on a house price prediction. This project showcases data preprocessing, feature selection, model building, evaluation, and optimization techniques.
