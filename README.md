@@ -7,6 +7,7 @@ So to deal the issues we will use MACHINE LEARNING Based model, trained on the H
 Import Libraries and Dataset
 Here, we are making use of:
 ```
+#ffffff
 Pandas – To import the DataFrame
 Matplotlib – To plot the features of the data. That is, in the case of barplot
 Seaborn – visualization of the relationship between features by heatmap.
