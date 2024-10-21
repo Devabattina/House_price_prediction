@@ -6,11 +6,11 @@ So to deal the issues we will use MACHINE LEARNING Based model, trained on the H
 
 Import Libraries and Dataset
 Here, we are making use of:
-'''
+```
 Pandas – To import the DataFrame
 Matplotlib – To plot the features of the data. That is, in the case of barplot
 Seaborn – visualization of the relationship between features by heatmap.
-'''
+```
 As we have imported the data. So shape method will show us the dimension of the dataset. 
 
 #Data PreProcessing:
