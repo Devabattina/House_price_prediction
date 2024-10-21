@@ -1,6 +1,7 @@
 # House_price_prediction
 
 #Overview
+
 The house price forecasting is done using machine learning models based on different features related to houses like lot area, zoning classification, building type, year built, and so on. The models used for this purpose are as follows:
   *Support Vector Regressor (SVR)
   *Random Forest Regressor
@@ -11,6 +12,7 @@ This project thus basically follows a general workflow of any typical machine le
   *Least optimal is the performance by SVR with a MAPE of 0.3597.
   
 #Dataset
+
 This dataset is related to house sales records. Features considered are as given below:
 MSSubClass: Type of dwelling
 MSZoning: Zoning classification
@@ -29,6 +31,7 @@ The data set used is in the folder of data/ or alternatively, you can use any cu
 4. Scaling: The numerical features are scaled such that their scale would be comparable for the model to do well.
 
 #Models and Training
+
 The project encompasses the following machine learning models for predicting prices:
 1. Support Vector Regressor (SVR): This is a kernel-based machine learning algorithm, which can be used for regression-oriented tasks.
 2. Random Forest Regressor: It's an ensemble learning method that builds multiple decision trees and combines them to boost accuracy.
@@ -38,6 +41,7 @@ Training procedure:
 >>Fit all the models on the training data
 >>Performance of the model will be measured on the validation set.
 Hyperparameter options for all the models are natively tunable in the code.
+
 #Performance metrics
 We measure the performance of the models in terms of Mean Absolute Percentage Error (MAPE) in predicting the accuracy. MAPE provides an intuitively understandable measure since it calculates the percentage error between the predicted values and actual values.
 
